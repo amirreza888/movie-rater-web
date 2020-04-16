@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: Calc(100vh - 100px);
+
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 0;
+  padding: 50px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.layout{
+  display: grid;
+  grid-template-columns: 0.75fr 1fr;
+  text-align: left;
+  //float: left;
+
+}
+
+.orange{
+  color: gold;
+}
+
+
+.orange1{
+  color: gold;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+
+.purple {
+  color: grey;
+}
+
+.rate-container{
+  border-top:2px solid grey;
+  margin-top: 3px;
+}
+
+.movieicon{
+  margin: 10px;
+}
+
+.movie-item{
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+}
+
+button{
+  color: #444444;
+  background-color: #f3f3f3;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+button:disabled{
+  color: #f3f3f3;
+  background-color: #444444;
+  cursor: not-allowed;
+
+}
+
+
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  margin: 8px 10px;
+  font-size: 0.8em;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.fa-trash{
+  color: crimson;
+}
+
+h1{
+  color: orange;
+  font-size: 3em;
+}
+
+h1 span.fa{
+  color: white;
+  transform: rotate(25deg);
+}
+
+.login-container{
+  width: 50%;
+  margin: 50px 25%;
+
+}
